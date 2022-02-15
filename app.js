@@ -79,8 +79,6 @@ const promptUser = () => {
 };
 
 const promptProject = portfolioData => {
-    portfolioData.projects = [];
-
     //if there is no 'projects' array property, create one
     if (!portfolioData.projects) {
         portfolioData.projects = [];
